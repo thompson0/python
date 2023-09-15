@@ -1,2 +1,2 @@
-frase='penis'
+frase='armario'
 print(frase[:5])
