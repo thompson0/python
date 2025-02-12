@@ -1,8 +1,4 @@
-import math, random, pygame
-pygame.init()
-pygame.mixer.music.load('Tudo_em_vao_2.mp3')
-pygame.mixer.music.play()
-input().event.wait()
+import math, random
 num = float(input("Digite um numero quebrado"))
 inteiro= math.floor(num)
 print(inteiro)
@@ -24,14 +20,14 @@ aluno2=str(input('Digite um nome de um aluno'))
 aluno3=str(input('Digite um nome de um aluno'))
 aluno4=str(input('Digite um nome de um aluno'))
 sorteado=[aluno1,aluno2,aluno3,aluno4]
-penis=sorted(sorteado)
-print(penis)
+numero=sorted(sorteado)
+print(numero)
 
 aluno1=str(input('Digite um nome de um aluno'))
 aluno2=str(input('Digite um nome de um aluno'))
 aluno3=str(input('Digite um nome de um aluno'))
 aluno4=str(input('Digite um nome de um aluno'))
 sorteado=[aluno1,aluno2,aluno3,aluno4]
-penis=random.choices(sorteado)
-print(penis)
+numero=random.choices(sorteado)
+print(numero)
 
